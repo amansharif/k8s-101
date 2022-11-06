@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mying
+spec:
+  rules:
+    - http:
+        paths:
+          - backend:
+              service:
+                name: mysvc
+                port:
+                  number: 80
+            path: /
+            pathType: Prefix

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microsvcdemo
+  labels:
+    app: microsvcdemo
+spec:
+  selector:
+    matchLabels:
+      app: microsvcdemo
+  template:
+    metadata:
+      labels:
+        app: microsvcdemo
+    spec:
+      containers:
+        - name: container
+          image: aman10/microsvcdemo:v0.0.1
+          ports:
+            - containerPort: 80
