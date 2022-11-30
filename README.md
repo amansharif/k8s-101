@@ -34,11 +34,13 @@ Since we understand container now. Lets try to understand where containerization
 ![k8s 101](diagrams/k8s-101.excalidraw.png)
 ## 3. Kubernetes 101 mindmap for developers
 We now understand what container is in reality, how we do containerization and why we need orchestration. Lets now focus on Kubernetes and see how this solves all the modern days problems.
-When it comes to DevOps part of Software development, we primarily focus on four questions.
+When it comes to DevOps part of Software development, we primarily focus on five questions.
 1. **How do you deploy your applications ?** 
 2. **How do you configure your application ?**
 3. **How do applications talk to each other ?**
 4. **How do we use persistent storage ?** 
+5. **How do others/clients consume our application ?**
+**NOTE:** We worry about the fifth question after we sort out the first four. So, lets understand the first four first.
 
 ![k8s 102](diagrams/k8s-102.excalidraw.png)
 
