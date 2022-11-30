@@ -40,6 +40,8 @@ When it comes to DevOps part of Software development, we primarily focus on five
 3. **How do applications talk to each other ?**
 4. **How do we use persistent storage ?** 
 5. **How do others/clients consume our application ?**
+
+
 **NOTE:** We worry about the fifth question after we sort out the first four. So, lets understand the first four first.
 
 ![k8s 102](diagrams/k8s-102.excalidraw.png)
